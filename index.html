@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+
+        <title>my college face</title>
+            <meta name="subject" content="관상가 양반, 나는 어느 대학 관상인가?">
+            <meta name="keywords" content="관상, 관상 테스트, 대학 관상, 대학 면접, 서울대, 연세대, 고려대, 서강대, 성균관대, 한양대, 이화여대, AI 관상, 인공지능 관상, 대학얼굴, 대학얼짱, 수시면접, 정시면접">
+            <meta name="description" content="인공지능 AI가 어려분의 얼굴과 가장 가까운 대학교 관상을 알려드립니다. 회원가입도 필요없이 화면에서 바로 확인해보세요! 사진 데이터는 그 어디에도 전송되지 않습니다. 이봐 관상가 양반! 내 얼굴은 어느 대학의 상인가?">
+            <meta name="author" content="조구대">
+            <!--<link rel="canonical" href="https://animalface.site" />
+            <meta property="og:url" content="https://animalface.site" />-->
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content="대학교 관상" />
+            <meta property="og:description" content="인공지능 AI가 어려분의 얼굴과 가장 가까운 대학교 관상을 알려드립니다. 회원가입도 필요없이 화면에서 바로 확인해보세요! 사진 데이터는 그 어디에도 전송되지 않습니다. 이봐 관상가 양반! 내 얼굴은 어느 대학의 상인가?"/>
+            <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Frubilliac.tistory.com%2F785&psig=AOvVaw1Y8TDKBibNyDiwy_xeWqNC&ust=1599898346794000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiI6PfT4OsCFQAAAAAdAAAAABAa" />    
+        
+        
+        <link rel="stylesheet" href="style.css" />
+
+    </head>
+   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f50ab8a2bd6a690"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145482737-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-145482737-6');
+    </script>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light nav-distance">
+            <a class="navbar-brand" href="#">대학교 관상</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">대학교 관상<span class="sr-only">(current)</span></a>
+                    </li>
+                   <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+                            >Disabled</a> 
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+        <section
+            class="container d-flex flex-column justify-content-center align-items-center"
+        ></section>
+        <section class="section">
+            <h1 class="title">대학교 관상</h1>
+            <h2 class="subtitle">
+                  어이~ 관상가 양반~!! <br>
+                  나는 어느 대학 관상인가?  
+            </h2>
+        </section>
+      
+        <br>
+        <h3 class="mt-3 pb-2 d-flex justify-content-center">성별을 선택하세요</h3>
+        <section class="d-flex justify-content-center">
+            <p class="d-flex align-items-center pr-3">여자</p>
+            <div>
+                <input type="checkbox" id="gender" />
+                <label for="gender">
+                    <span class="knob">
+                        <i></i>
+                    </span>
+                </label>
+            </div>
+            <p class="d-flex align-items-center pl-3">남자</p>
+        </section>
+
+        <script
+            class="jsbin"
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
+        ></script>
+        <div class="mt-3 container file-upload">
+            <div class="image-upload-wrap">
+                <input
+                    class="file-upload-input"
+                    type="file"
+                    onchange="readURL(this);"
+                    accept="image/*"
+                />
+                <div class="drag-text">
+                    <img src="img/upload.svg" class="mt-3 pt-3 upload" alt="upload-image" />
+                    <h3 class="mb-3 pb-3 pt-3 upload-text">
+                        얼굴 사진을 올려놓거나 눌러서 업로드하세요!
+                    </h3>
+                </div>
+            </div>
+            <div class="file-upload-content">
+                <img class="file-upload-image" id="face-image" src="#" alt="your image" />
+                <div id="loading" class="animated bounce">
+                    <div class="spinner-border" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <p class="text-center">내가 어느 대학에 어울리는 관상인가?</p>
+                </div>
+                <p class="result-message"></p>
+                <div id="label-container" class="d-flex flex-column justify-content-around"></div>
+                <div id="addThis" class="mt-5 addthis_inline_share_toolbox"></div>
+                <div class="pt-3 image-title-wrap">
+                    <button type="button p-2" class="try-again-btn" onclick="gaReload()">
+                        <span class="try-again-text">다른 사진으로 재시도</span>
+                    </button>
+                    
+                    <p id="result-ytb" class="result-ytb-link"></p>
+                    
+                </div>
+            </div>
+        </div>
+        <br><br>
+          <section class="youtube">
+            <div class="container mt-2 youtube-cover d-flex flex-row-reverse">
+                <img src="img/youtube-copy.jpg" alt="youtube-icon" class="youtube-icon" />
+                <a href="https://www.youtube.com/c/%EC%A1%B0%EC%BD%94%EB%94%A9JoCoding/featured" class="youtube-link" target="_blank">'대학교별 관상'은 조코딩 유튜브 채널을 참고하여 만들었습니다!</a>
+            </div>
+              <br>
+        </section>
+        <div id="disqus_thread"></div>
+        <section>
+        <footer class="footer pt-5 container d-flex justify-content-center">
+        <div>
+            <p>&copy; All Rights Reserved. </p>
+            <ul class="list-inline d-flex justify-content-center">
+                <!--<li><a href="https://animalface.site/privacy.html">Privacy</a></li>&nbsp;&nbsp;
+                <li><a href="https://animalface.site/blog">About</a></li>-->
+            </ul>
+        </div>
+        </footer>
+        </section>
+        <script>
+            function gaReload() {
+                gtag('event', '다른 사진으로 재시도', {
+                    event_category: '다른 사진으로 재시도',
+                });
+                window.location.reload();
+            }
+            function gaReload1() {
+                gtag('event', '다른 사진으로 재시도 1차', {
+                    event_category: '다른 사진으로 재시도',
+                });
+                window.location.reload();
+            }
+            function gaReload2() {
+                gtag('event', '다른 사진으로 재시도 2차', {
+                    event_category: '다른 사진으로 재시도',
+                });
+                window.location.reload();
+            }
+        </script>
+        <script>
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            /*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+            (function () {
+                // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                    s = d.createElement('script');
+                s.src = 'https://wellstech.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>                  
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"
+        ></script>
+
+        <script>
+            function readURL(input) {
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        $('.image-upload-wrap').hide();
+                        $('#loading').show();
+                        $('#result-ytb').hide();
+
+                        $('.file-upload-image').attr('src', e.target.result);
+                        $('.file-upload-content').show();
+
+                        $('.image-title').html(input.files[0].name);
+                    };
+
+                    reader.readAsDataURL(input.files[0]);
+                    init().then(function () {
+                        predict();
+                        $('#loading').hide();
+                        setTimeout(()=> $('#result-ytb').show(),700);
+                        
+                    });                           
+                    
+                } else {
+                    removeUpload();
+                }
+            }
+
+            function removeUpload() {
+                $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+                $('.file-upload-content').hide();
+                $('.image-upload-wrap').show();
+            }
+            $('.image-upload-wrap').bind('dragover', function () {
+                $('.image-upload-wrap').addClass('image-dropping');
+            });
+            $('.image-upload-wrap').bind('dragleave', function () {
+                $('.image-upload-wrap').removeClass('image-dropping');
+            });
+        </script>
+
+        <script type="text/javascript">
+            // More API functions here:
+            // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
+
+            // the link to your model provided by Teachable Machine export panel
+            const urlMale = 'https://teachablemachine.withgoogle.com/models/LXoqRV-fM/';
+            const urlFemale = 'https://teachablemachine.withgoogle.com/models/46uGAjiRn/';
+            
+            let model, webcam, labelContainer, maxPredictions;
+
+            // Load the image model and setup the webcam
+
+            async function init() {
+                if(document.getElementById("gender").checked){
+                    URL=urlMale;
+                }else{
+                    URL=urlFemale;
+                }
+                const modelURL = URL + 'model.json';
+                const metadataURL = URL + 'metadata.json';
+                // load the model and metadata
+                // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
+                // or files from your local hard drive
+                // Note: the pose library adds "tmImage" object to your window (window.tmImage)
+                model = await tmImage.load(modelURL, metadataURL);
+                maxPredictions = model.getTotalClasses();
+                labelContainer = document.getElementById('label-container');
+                for (let i = 0; i < maxPredictions; i++) {
+                    // and class labels
+                    var element = document.createElement('div');
+                    element.classList.add('d-flex');
+                    labelContainer.appendChild(element);
+                }
+            }
+
+            // run the webcam image through the image model
+
+            async function predict() {
+                // predict can take in an image, video or canvas html element
+                var image = document.getElementById('face-image');
+                const prediction = await model.predict(image, false);
+                prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
+                console.log(prediction[0].className);
+                var resultTitle, resultExplain, resultCeleb, resultUrl;
+                if(document.getElementById("gender").checked){
+                     gtag('event','남자 대학 관상 테스트 수행', {
+                    'event_category': '대학 관상 테스트 수행',
+                    'event_label': '남자'
+                });
+                    
+                switch (prediction[0].className) {
+                    case '서울대':
+                        resultTitle = '서울대';
+                        resultExplain = '두말하면 잔소리, 대한민국 최고의 학교아니겠는가!! 최고의 엘리트형 인재의 관상이올시다~~';
+                        resultCeleb = '서울대 출신 대표 방송인: 장기하, 김정현, 유희열';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '남자 관상 결과 서울대상', {'event_category': '남자 결과'});
+                        break;
+                    case '연세대':
+                        resultTitle = '연세대';
+                        resultExplain = '지적이면서도 밝은 모습의 놀땐 놀고, 공부할 땐 공부할 줄 아는 도시남녀의 관상이올시다~~';
+                        resultCeleb = '연세대 출신 대표 방송인: 오상진, 손범수, 전현무';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '남자 관상 결과 연세대상', {'event_category': '남자 결과'});
+                        break;
+                    case '고려대':
+                        resultTitle = '고려대';
+                        resultExplain = '순수하고 정직한 관상이올시다~~ 묵묵히 자신이 정한 길을 걷는 우직한 리더의 상이 아니겠소이까?';
+                        resultCeleb = '고려대 출신 대표 방송인: 이제훈, 성시경, 박정민';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '남자 관상 결과 고려대상', {'event_category': '남자 결과'});
+                        break;
+                    case '서강대':
+                        resultTitle = '서강대';
+                        resultExplain = '하늘아래 맑은 호수 속 잉어의 상이올시다. 부끄러워 호수 밖으로 나오기 쉽지 않으나, 언젠가 하늘을 날아오를 상이 아닙니까?';
+                        resultCeleb = '서강대 출신 방송인: 박찬욱, 유병재, 신해철';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '남자 관상 결과 서강대상', {'event_category': '남자 결과'});
+                        break;
+                    case '성균관대':
+                        resultTitle = '성균관대';
+                        resultExplain = '과거에는 청렴한 선비와 학자의 상이라 하겠으나, 이제는 완벽을 추구하는 도사들의 관상이라 불러야겠지요~~';
+                        resultCeleb = '성균관대 출신 방송인: 차은우, 배용준, 송중기';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '남자 관상 결과 성균관대상', {'event_category': '남자 결과'});
+                        break;
+                    case '한양대':
+                        resultTitle = '한양대';
+                        resultExplain = '나뿐만 아니라 주위를 두루 살피고 아낄 줄 아는 성인의 상이올시다~~';
+                        resultCeleb = '한양대 출신 방송인: 이병헌, 강동원, 하석진';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '남자 관상 결과 한양대상', {'event_category': '남자 결과'});
+                        break;
+                    default:
+                        resultTitle = '알수없음';
+                        resultExplain = '내 관상력으로도 당췌 알수가 없소이다';
+                        resultCeleb = '';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '남자 관상 결과 알수없음', {'event_category': '남자 결과'});
+                }
+                }else{
+                     gtag('event','여자 대학 관상 테스트 수행', {
+                    'event_category': '대학 관상 테스트 수행',
+                    'event_label': '여자'
+                });
+                 switch (prediction[0].className) {
+                    case '서울대':
+                        resultTitle = '서울대';
+                        resultExplain = '두말하면 잔소리, 대한민국 최고의 학교아니겠는가!! 최고의 엘리트형 관상이올시다~~';
+                        resultCeleb = '서울대 출신 대표 방송인: 김태희, 이하늬, 오정연';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '여자 관상 결과 서울대상', {'event_category': '여자 결과'}); 
+                        break;
+                    case '연세대':
+                        resultTitle = '연세대';
+                        resultExplain = '지적이면서도 밝은모습의 놀땐 놀고, 공부할 땐 공부할 줄 아는 도시남녀의 관상이올시다~~';
+                        resultCeleb = '연세대 출신 방송인: 해이, 호란, 황현정';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '여자 관상 결과 연세대상', {'event_category': '여자 결과'});
+                        break;
+                    case '고려대':
+                        resultTitle = '고려대';
+                        resultExplain = '순수하고 정직한 관상이올시다~~ 묵묵히 자신이 정한 길을 걷는 우직한 리더의 상이 아니겠소이까?';
+                        resultCeleb = '고려대 출신 방송인: 유진, 이인혜, 박혜수';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '여자 관상 결과 고려대상', {'event_category': '여자 결과'});  
+                        break;
+                    case '서강대':
+                        resultTitle = '서강대';
+                        resultExplain = '하늘아래 맑은 호수 속 잉어의 상이올시다. 부끄러워 호수 밖으로 나오기 쉽지 않으나, 언젠가 하늘을 날는 꿈을 꾸는 상이 아닙니까?';
+                        resultCeleb = '서강대 출신 방송인: 박은빈, 배지현, 손정은';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '여자 관상 결과 서강대상', {'event_category': '여자 결과'});  
+                        break;
+                    case '성균관대':
+                        resultTitle = '성균관대';
+                        resultExplain = '과거에는 청렴한 선비와 학자의 상이라 하겠으나, 이제는 완벽을 추구하는 도사들의 관상이라 불러야겠지요~~';
+                        resultCeleb = '성균관대 출신 방송인: 조보아, 이민정, 유이';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '여자 관상 결과 성균관대상', {'event_category': '여자 결과'}); 
+                        break;
+                    case '한양대':
+                        resultTitle = '한양대';
+                        resultExplain = '나뿐만 아니라 주위를 두루 살피고 아낄 줄 아는 성인의 상이올시다~~';
+                        resultCeleb = '한양대 출신 방송인: 이영애, 송윤아, 김민정';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '여자 관상 결과 한양대상', {'event_category': '여자 결과'}); 
+                        break;
+                    case '이화여대':
+                        resultTitle = '이화여대';
+                        resultExplain = '걸크러쉬, 세상을 올바르게 이끌 진정한 리더의 상이 아닌가!!';
+                        resultCeleb = '이화여대 출신 방송인: 김주하, 서민정, 이재은';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '여자 관상 결과 이화여대상', {'event_category': '여자 결과'});  
+                        break;
+                    default:
+                        resultTitle = '알수없음';
+                        resultExplain = '내 관상력으로도 당췌 알수가 없소이다';
+                        resultCeleb = '';
+                        resultUrl = 'https://www.youtube.com/embed/O8KmZ9aH67A';
+                        gtag('event', '여자 관상 결과 알수없음', {'event_category': '여자 결과'}); 
+                }
+                }
+                    
+                    
+                var title =
+                    "<div class='" + prediction[0].className + "-college-title'>" + resultTitle + '</div>';
+                var explain = "<div class='college-explain pt-2'>" + resultExplain + '</div>';
+                var celeb = "<div class='" + prediction[0].className + "-college-celeb pt-2 pb-2'>" + resultCeleb +'</div>';
+                var ytburl = '<iframe src='+resultUrl+' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';                
+
+                $('.result-message').html(title + explain + celeb);
+                console.log(ytburl);
+                $('.result-ytb-link').html(ytburl);
+                
+                var barWidth;
+                for (let i = 0; i < maxPredictions; i++) {
+                    if (prediction[i].probability.toFixed(2) > 0.1) {
+                        barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + '%';
+                    } else if (prediction[i].probability.toFixed(2) >= 0.01) {
+                        barWidth = '6%';
+                    } else {
+                        barWidth = '4%';
+                    }
+
+                    var labelTitle;
+                    switch (prediction[i].className) {
+                        case '서울대':
+                            labelTitle = '서울대상';
+                            break;
+                        case '연세대':
+                            labelTitle = '연세대상';
+                            break;
+                        case '고려대':
+                            labelTitle = '고려대상';
+                            break;
+                        case '서강대':
+                            labelTitle = '서강대상';
+                            break;
+                        case '성균관대':
+                            labelTitle = '성균관대상';
+                            break;
+                        case '한양대':
+                            labelTitle = '한양대상';
+                            break;    
+                        case '이화여대':
+                            labelTitle = '이화여대상';
+                            break;
+                        default:
+                            labelTitle = '알수없음';
+                            break;
+                    }
+                    var label =
+                        "<div class='college-label d-flex align-items-center'>" +
+                        labelTitle +
+                        '</div>';
+                    var bar =
+                        "<div class='bar-container position-relative container'><div class='" +
+                        prediction[i].className +
+                        "-box'></div><div class='d-flex justify-content-center align-items-center " +
+                        prediction[i].className +
+                        "-bar' style='width: " +
+                        barWidth +
+                        "'><span class='d-block percent-text'>" +
+                        Math.round(prediction[i].probability.toFixed(2) * 100) +
+                        '%</span></div></div>';
+                    labelContainer.childNodes[i].innerHTML = label + bar;
+                }
+             
+            }
+        </script>
+    </body>
+    <!-- 
+image input box
+Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+gender toggle
+Copyright (c) 2020 by Mert Cukuren (https://codepen.io/knyttneve/pen/bPpEZY)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ -->
+</html>
