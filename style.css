@@ -533,6 +533,6 @@ input:checked + label > .knob > i:before {
     height: 100%;
 }
 .ad-kakao{
-    width: 250px;
+    width: 300px;
     margin: 0 auto;
 }
