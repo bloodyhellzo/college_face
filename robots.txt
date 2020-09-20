@@ -1,4 +1,3 @@
 User-agent: *
 Allow:/
-
 Sitemap: https://collegeface.cf/sitemap.xml
